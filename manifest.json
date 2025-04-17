@@ -4,15 +4,15 @@
     "version": "1.0",
     "description": "Dịch văn bản sang tiếng Việt bằng Gemini AI",
     "permissions": [
-        "contextMenus",
         "activeTab",
-        "scripting"
+        "scripting",
+        "contextMenus",
+        "notifications"
     ],
     "background": {
         "service_worker": "background.js"
     },
     "action": {
-        "default_popup": "popup.html",
         "default_icon": "icon.png"
     },
     "icons": {
